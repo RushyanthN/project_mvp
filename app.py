@@ -86,3 +86,22 @@ if st.button("Analyze Sentiment"):
             st.write("The sentiment is **Neutral**.")
     else:
         st.warning("Please enter some text to analyze.")
+
+
+issues_text = """
+Issues:
+
+The dataset seems to be biased around Neutral sentiment, So there is some trouble around the output.
+"""
+
+next_steps_text = """
+Next steps:
+
+Edit the code with suitable comments and implementing the code in Python Class and separating the training of the model into separate .py file
+"""
+
+st.subheader("Issues")
+st.write(issues_text)
+
+st.subheader("Next Steps")
+st.write(next_steps_text)
